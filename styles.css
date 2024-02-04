@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@100;200;300;400;500;600;700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 500px;
+}
+.date{
+    user-select: none;
+    -webkit-text-fill-color: rgb(0, 251, 255);
+    -webkit-text-stroke: 3px black ;
+    text-shadow: 3px 3px;
+    font-size: 70px;
+    color:rgb(255, 0, 0);
+    font-weight: 900;
+}
+.time{
+    user-select: none;
+    -webkit-text-fill-color: rgb(0, 251, 255);
+    -webkit-text-stroke: 5px black ;
+    text-shadow: 5px 5px;
+    font-size: 150px;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+}
